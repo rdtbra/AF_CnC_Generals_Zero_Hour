@@ -851,6 +851,7 @@ static CriticalSection critSec1, critSec2, critSec3, critSec4, critSec5;
 //=============================================================================
 Int APIENTRY WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
                       LPSTR lpCmdLine, Int nCmdShow )
+/* RDT: 20250816 - Ponto de entrada Windows do código Geneerals. */
 {
 	checkProtection();
 
